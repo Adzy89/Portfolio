@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css"/> 
     <title>Portfolio</title>
 </head>
-
 <body>
-
+    
 <header>
     <h1>Adam Pilato</h1>
         <nav>
@@ -20,34 +21,45 @@
         </nav>
 </header>
 
+<section>
 <div class="container">
-        <img src="./images/pexels-pixabay-220201.jpg" alt="Earth" width="100%" height="150"/>
+        <img src="./images/pexels-pixabay-220201.jpg" alt="Earth" width="100%" height="150">
         <div class="bottomright">Earth from above</div>
 </div>
+</section>
 
-<article>
-    <h2 id="left-text">About Me</h2>
-    <p id="para">World War II or the Second World War, often abbreviated as WWII or WW2, was a global war that lasted from 1939 to 1945. 
+<article class="flex">
+    <h2 id="About-Me">About Me</h2>
+    <p id="WorldWarII"> World War II or the Second World War, often abbreviated as WWII or WW2, was a global war that lasted from 1939 to 1945. 
         It involved the vast majority of the world's countries—including all of the great powers—forming two opposing military alliances: the Allies and the Axis powers. 
         World War II was a total war that directly involved more than 100 million personnel from more than 30 countries.
-    </p>   
+       
+    </p> 
+ </article>   
+
+
+<article class="flex-container">   
+    <h3 id="Work">Work</h3>
+    <img id="photo1" src="/images/surf2.jpg" alt="Surf Report" >
 </article>
 
-<div class="flex-container">
-    <h3 id="left2">Work</h3>
-    <img src="/images/surf2.jpg" alt="Surf Report" width="800px" height="350px"/>
-    <img src="/images/led wall.jpg" alt="Led Wall"/>
-    <img src="/images/calculator.jpg" alt="Calculator" width="50%" height="50%"/>
-    <img src="/images/KB-MERN-Featured.jpg" alt="Pastel Puzzels" width="50%" height="50%"/>
-    <img src="/images/html-css-beginners.jpg" alt="Run buddy" width="50%" height="50%"/>
-  
-</div>
+<section class="grid-container" class="main">   
+    <div>
+        <img id="photo" src="/images/led wall.jpg" alt="Led Wall" >
+        <img id="photo" src="/images/calculator.jpg" alt="Calculator"   >
+        <img id="photo" src="/images/KB-MERN-Featured.jpg" alt="Pastel Puzzels" >
+        <img id="photo" src="/images/html-css-beginners.jpg" alt="Run buddy" >
+    </div>
+</section>
+
+<section class="foot">
+    <h4 id="Contact Me">Contact Me</h4>
+</section>
 
 <footer>
-    <h4 id="left3">Contact Me</h4>
     <nav>
         <ul>
-        <li><a href="#About Me">About Me</a></li>
+        <li><a href="#Contact Number">Contact Number</a></li>
         <li><a href="#Github">Github</a></li>
         <li><a href="#adam_pilato@hotmail.com">adam_pilato@hotmail.com</a></li>
         <li><a href="#Twitter">Twitter</a></li>
@@ -55,8 +67,6 @@
         </ul>
     </nav>
 </footer>
-
-
 
 </body>
 </html>
