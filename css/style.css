@@ -4,14 +4,33 @@
     margin: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-@media screen and (max-width: 800px) {
-    .left, .main, .right {
-      width: 100%; 
+
+@media screen and (max-width: 575px) {
+#main {
+      flex-direction: column;
     }
-  }
+}
+
+
+#main , .article{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+
+.nav {
+    display: flex;
+    flex-direction: column;
+
+}
 
 body {
-    background-color: #c2dbe3
+    background-color: #c2dbe3;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
 }
 
 header {
@@ -29,10 +48,6 @@ h1 {
     padding-left: 50px;             
 }
 
-header nav li {
-    font-size: 20px;  
-}
-
 header nav ul {
     display: flex;
     justify-content: space-between;
@@ -44,6 +59,7 @@ header nav ul {
 
 header nav ul li {
     margin-right: 20px; 
+    font-size: 20px;  
 } 
 
 a {
@@ -51,7 +67,7 @@ a {
 
 }
 
-.container {
+.img {
     position: relative;
 }
 
@@ -64,60 +80,6 @@ a {
     border-style: solid;
     border-color: rgb(0, 174, 255);
     background: rgb(0, 174, 255);   
-}
-
-.flex {
-    display: flex;
-    flex-direction: row;
-    padding-top: 10px;
-    padding-left: 100px;
-    
-
-}
-  
-#About-Me {
-    display: inline-block;
-    font-size: 30px;
-    text-align: right;
-    color:rgb(18, 25, 230);
-    border-right-style: solid;
-    border-color: rgb(0, 174, 255);
-    background: rgb(0, 174, 255);
-           
-
-}
-
-
-
-#WorldWarII {
-    display: inline;
-    padding-top: 0px;
-    padding-left: 70px;
-    text-align: left;
-    padding-right: 120px;
-}    
-
-.flex-container {
-    display: flex;
-    flex-direction: row;
-}
-
-#Work {
-    display: inline;
-    padding-top: 100px;
-    padding-left: 120px;
-    text-align: right;
-    font-size: 20px;
-}
-
-
-#photo1 {
-    padding-top: 100px;
-    padding-left: 70px;
-    width: 1100px;
-    height: 300px;
-      
-    
 }
 
 .grid-container {
@@ -133,8 +95,7 @@ a {
    
 }
     
-    
-}
+
 
 #photo {
     height: 20%;
