@@ -58,12 +58,50 @@ a {
     background: rgb(0, 174, 255);   
 }
 
-.content {
-    display: flex;
-    flex-direction: column;
-    align-content: flex-start, flex-end ;
-    
+
+.container {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
 }
+/* added grid templates for position */
+
+.about-me-text {
+     margin-top: 5%;
+     text-align: middle;
+     margin-left: 70%;
+     border-right: solid rgb(0, 174, 255) 5px;     
+}
+
+/*position text in grid */
+
+ #text {
+    margin-top: 2%;
+    font-size: 20px;
+    margin-left: 5%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer nav ul {
     display: flex;
@@ -84,4 +122,9 @@ footer a {
     padding-top: 1000px; 
 }
 
-
+@media screen and (max-width: 1500px) {
+    header{
+        font-size: 40px;
+        margin-left: 20px;
+    }
+}
