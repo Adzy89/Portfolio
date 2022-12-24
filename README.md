@@ -12,7 +12,7 @@ n/a
 
 ## Screenshot
 
-(/assets/02-advanced-css-homework-demo.gif)
+[demo](/assets/02-advanced-css-homework-demo.gif)
 
 ## Usage
 
