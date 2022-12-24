@@ -226,6 +226,221 @@ footer nav ul, .info a{
     }
 }
 
+body {
+    background-color: #c2dbe3;
+}
+
+header {
+    padding: 10px 10px 10px 0px;
+    background-color: #032a3d;      
+}
+
+h1 {
+    display: inline-block;
+    font-size: 30px;
+    color:rgb(18, 25, 230);
+    border-style: solid;
+    border-color: rgb(0, 174, 255);
+    background: rgb(0, 174, 255);
+    padding-left: 50px;             
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    position: absolute;
+    right: 15px;
+    top: 15px;    
+}
+
+header nav ul li {
+    margin-right: 20px; 
+    font-size: 20px;  
+} 
+
+a {
+    color: rgb(111, 201, 237);
+
+}
+
+.img {
+    position: relative;
+    padding: 0px;
+}
+
+.bottomright {
+    position: absolute;
+    bottom: 15%;
+    right: 5%;
+    font-size: 25px;
+    color:rgb(18, 25, 230);
+    border-style: solid;
+    border-color: rgb(0, 174, 255);
+    background: rgb(0, 174, 255);   
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    
+}
+/* added grid templates for position */
+
+.about-me-text {
+     margin-top: 5%;
+     text-align: middle;
+     margin-left: 57.5%;
+     border-right: solid rgb(0, 174, 255) 5px;
+     font-size: 30px;      
+}
+
+/* position text in grid */
+
+ #text {
+    margin-top: 2%;
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+.work-content {
+    margin-top: 5%;
+    text-align: right;
+    border-right: solid rgb(0, 174, 255) 5px;
+    padding-right: 15%;  
+    font-size: 30px; 
+}
+
+.bottomleft {
+    position: absolute;
+    text-align: start;
+    left: 24%;
+    margin-top: 26%;
+    font-size: 25px;
+    color:rgb(18, 25, 230);
+    border-style: solid;
+    border-color: rgb(0, 174, 255);
+    background: rgb(0, 174, 255);   
+    cursor: pointer;  
+    
+}
+
+/* added grid template */
+.container-img {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    margin-top: 5%;
+    padding-left: 0%;
+    
+}
+
+/* adjusted to fill content area */
+.box1 {
+    padding-left: 0%;
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 94%;
+    height: 70%;
+    cursor: pointer;
+    border: solid rgb(0, 174, 255) 3px;
+    
+}
+
+.fig-container {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    padding-left: 4%;
+    border-left: solid rgb(0, 174, 255) 5px;
+    margin-left: 19.65%;
+    margin-top: -5%;
+
+
+}
+
+.box2, .box3, .box4, .box5 {
+    width: 98%;
+    height: 95%; 
+    border: solid rgb(0, 174, 255) 3px;
+    cursor: pointer;
+}
+
+.top-left{
+    position: absolute;
+    left: 24%;
+    margin-top: -5%;
+    font-size: 20px;
+    color:rgb(18, 25, 230);
+    border-style: solid;
+    border-color: rgb(0, 174, 255);
+    background: rgb(0, 174, 255);  
+    cursor: pointer;  
+
+}
+
+.top-right {
+    position: absolute;
+    left: 62%;
+    margin-top: -5%;
+    font-size: 20px;
+    color:rgb(18, 25, 230);
+    border-style: solid;
+    border-color: rgb(0, 174, 255);
+    background: rgb(0, 174, 255);  
+    cursor: pointer; 
+}
+/* floating title */
+.bottom-left {
+    position: absolute;
+    left: 24%;
+    margin-top: -5%;
+    font-size: 20px;
+    color:rgb(18, 25, 230);
+    border-style: solid;
+    border-color: rgb(0, 174, 255);
+    background: rgb(0, 174, 255); 
+    cursor: pointer;  
+}
+
+.bottom-right {
+    position: absolute;
+    left: 62%;
+    margin-top: -5%;
+    font-size: 20px;
+    color:rgb(18, 25, 230);
+    border-style: solid;
+    border-color: rgb(0, 174, 255);
+    background: rgb(0, 174, 255);
+    cursor: pointer;   
+}
+
+.container-footer {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+}
+
+
+.contact {
+    margin-top: 5%;
+    text-align: right;
+    margin-right: 0%;
+    border-right: solid rgb(0, 174, 255) 5px;    
+    font-size: 30px; 
+    padding-right: 10%;
+}
+
+footer nav ul, .info a{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 20px;
+    
+}
+
+
 @media screen and (max-width: 1000px) {
     header{
         font-size: 30px;
@@ -233,6 +448,436 @@ footer nav ul, .info a{
         margin-top: 20px;
     }
 }
+
+body {
+    background-color: #c2dbe3;
+}
+
+header {
+    padding: 10px 10px 10px 0px;
+    background-color: #032a3d;      
+}
+
+h1 {
+    display: inline-block;
+    font-size: 30px;
+    color:rgb(18, 25, 230);
+    border-style: solid;
+    border-color: rgb(0, 174, 255);
+    background: rgb(0, 174, 255);
+    padding-left: 50px;             
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    position: absolute;
+    right: 15px;
+    top: 15px;    
+}
+
+header nav ul li {
+    margin-right: 20px; 
+    font-size: 20px;  
+} 
+
+a {
+    color: rgb(111, 201, 237);
+
+}
+
+.img {
+    position: relative;
+    padding: 0px;
+}
+
+.bottomright {
+    position: absolute;
+    bottom: 15%;
+    right: 5%;
+    font-size: 25px;
+    color:rgb(18, 25, 230);
+    border-style: solid;
+    border-color: rgb(0, 174, 255);
+    background: rgb(0, 174, 255);   
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    
+}
+/* added grid templates for position */
+
+.about-me-text {
+     margin-top: 5%;
+     text-align: middle;
+     margin-left: 57.5%;
+     border-right: solid rgb(0, 174, 255) 5px;
+     font-size: 30px;      
+}
+
+/* position text in grid */
+
+ #text {
+    margin-top: 2%;
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+.work-content {
+    margin-top: 5%;
+    text-align: right;
+    border-right: solid rgb(0, 174, 255) 5px;
+    padding-right: 15%;  
+    font-size: 30px; 
+}
+
+.bottomleft {
+    position: absolute;
+    text-align: start;
+    left: 24%;
+    margin-top: 26%;
+    font-size: 25px;
+    color:rgb(18, 25, 230);
+    border-style: solid;
+    border-color: rgb(0, 174, 255);
+    background: rgb(0, 174, 255);   
+    cursor: pointer;  
+    
+}
+
+/* added grid template */
+.container-img {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    margin-top: 5%;
+    padding-left: 0%;
+    
+}
+
+/* adjusted to fill content area */
+.box1 {
+    padding-left: 0%;
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 94%;
+    height: 70%;
+    cursor: pointer;
+    border: solid rgb(0, 174, 255) 3px;
+    
+}
+
+.fig-container {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    padding-left: 4%;
+    border-left: solid rgb(0, 174, 255) 5px;
+    margin-left: 19.65%;
+    margin-top: -5%;
+
+
+}
+
+.box2, .box3, .box4, .box5 {
+    width: 98%;
+    height: 95%; 
+    border: solid rgb(0, 174, 255) 3px;
+    cursor: pointer;
+}
+
+.top-left{
+    position: absolute;
+    left: 24%;
+    margin-top: -5%;
+    font-size: 20px;
+    color:rgb(18, 25, 230);
+    border-style: solid;
+    border-color: rgb(0, 174, 255);
+    background: rgb(0, 174, 255);  
+    cursor: pointer;  
+
+}
+
+.top-right {
+    position: absolute;
+    left: 62%;
+    margin-top: -5%;
+    font-size: 20px;
+    color:rgb(18, 25, 230);
+    border-style: solid;
+    border-color: rgb(0, 174, 255);
+    background: rgb(0, 174, 255);  
+    cursor: pointer; 
+}
+/* floating title */
+.bottom-left {
+    position: absolute;
+    left: 24%;
+    margin-top: -5%;
+    font-size: 20px;
+    color:rgb(18, 25, 230);
+    border-style: solid;
+    border-color: rgb(0, 174, 255);
+    background: rgb(0, 174, 255); 
+    cursor: pointer;  
+}
+
+.bottom-right {
+    position: absolute;
+    left: 62%;
+    margin-top: -5%;
+    font-size: 20px;
+    color:rgb(18, 25, 230);
+    border-style: solid;
+    border-color: rgb(0, 174, 255);
+    background: rgb(0, 174, 255);
+    cursor: pointer;   
+}
+
+.container-footer {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+}
+
+
+.contact {
+    margin-top: 5%;
+    text-align: right;
+    margin-right: 0%;
+    border-right: solid rgb(0, 174, 255) 5px;    
+    font-size: 30px; 
+    padding-right: 10%;
+}
+
+footer nav ul, .info a{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 20px;
+    
+}
+
+
+body {
+    background-color: #c2dbe3;
+}
+
+header {
+    padding: 10px 10px 10px 0px;
+    background-color: #032a3d;      
+}
+
+h1 {
+    display: inline-block;
+    font-size: 30px;
+    color:rgb(18, 25, 230);
+    border-style: solid;
+    border-color: rgb(0, 174, 255);
+    background: rgb(0, 174, 255);
+    padding-left: 50px;             
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    position: absolute;
+    right: 15px;
+    top: 15px;    
+}
+
+header nav ul li {
+    margin-right: 20px; 
+    font-size: 20px;  
+} 
+
+a {
+    color: rgb(111, 201, 237);
+
+}
+
+.img {
+    position: relative;
+    padding: 0px;
+}
+
+.bottomright {
+    position: absolute;
+    bottom: 15%;
+    right: 5%;
+    font-size: 25px;
+    color:rgb(18, 25, 230);
+    border-style: solid;
+    border-color: rgb(0, 174, 255);
+    background: rgb(0, 174, 255);   
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    
+}
+/* added grid templates for position */
+
+.about-me-text {
+     margin-top: 5%;
+     text-align: middle;
+     margin-left: 57.5%;
+     border-right: solid rgb(0, 174, 255) 5px;
+     font-size: 30px;      
+}
+
+/* position text in grid */
+
+ #text {
+    margin-top: 2%;
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+.work-content {
+    margin-top: 5%;
+    text-align: right;
+    border-right: solid rgb(0, 174, 255) 5px;
+    padding-right: 15%;  
+    font-size: 30px; 
+}
+
+.bottomleft {
+    position: absolute;
+    text-align: start;
+    left: 24%;
+    margin-top: 26%;
+    font-size: 25px;
+    color:rgb(18, 25, 230);
+    border-style: solid;
+    border-color: rgb(0, 174, 255);
+    background: rgb(0, 174, 255);   
+    cursor: pointer;  
+    
+}
+
+/* added grid template */
+.container-img {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    margin-top: 5%;
+    padding-left: 0%;
+    
+}
+
+/* adjusted to fill content area */
+.box1 {
+    padding-left: 0%;
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 94%;
+    height: 70%;
+    cursor: pointer;
+    border: solid rgb(0, 174, 255) 3px;
+    
+}
+
+.fig-container {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    padding-left: 4%;
+    border-left: solid rgb(0, 174, 255) 5px;
+    margin-left: 19.65%;
+    margin-top: -5%;
+
+
+}
+
+.box2, .box3, .box4, .box5 {
+    width: 98%;
+    height: 95%; 
+    border: solid rgb(0, 174, 255) 3px;
+    cursor: pointer;
+}
+
+.top-left{
+    position: absolute;
+    left: 24%;
+    margin-top: -5%;
+    font-size: 20px;
+    color:rgb(18, 25, 230);
+    border-style: solid;
+    border-color: rgb(0, 174, 255);
+    background: rgb(0, 174, 255);  
+    cursor: pointer;  
+
+}
+
+.top-right {
+    position: absolute;
+    left: 62%;
+    margin-top: -5%;
+    font-size: 20px;
+    color:rgb(18, 25, 230);
+    border-style: solid;
+    border-color: rgb(0, 174, 255);
+    background: rgb(0, 174, 255);  
+    cursor: pointer; 
+}
+/* floating title */
+.bottom-left {
+    position: absolute;
+    left: 24%;
+    margin-top: -5%;
+    font-size: 20px;
+    color:rgb(18, 25, 230);
+    border-style: solid;
+    border-color: rgb(0, 174, 255);
+    background: rgb(0, 174, 255); 
+    cursor: pointer;  
+}
+
+.bottom-right {
+    position: absolute;
+    left: 62%;
+    margin-top: -5%;
+    font-size: 20px;
+    color:rgb(18, 25, 230);
+    border-style: solid;
+    border-color: rgb(0, 174, 255);
+    background: rgb(0, 174, 255);
+    cursor: pointer;   
+}
+
+.container-footer {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+}
+
+
+.contact {
+    margin-top: 5%;
+    text-align: right;
+    margin-right: 0%;
+    border-right: solid rgb(0, 174, 255) 5px;    
+    font-size: 30px; 
+    padding-right: 10%;
+}
+
+footer nav ul, .info a{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 20px;
+    
+}
+
 
 @media screen and (max-width: 700px) {
     header{
