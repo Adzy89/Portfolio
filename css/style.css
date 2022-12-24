@@ -94,7 +94,7 @@ a {
     position: absolute;
     text-align: start;
     left: 24%;
-    margin-top: 25%;
+    margin-top: 26%;
     font-size: 25px;
     color:rgb(18, 25, 230);
     border-style: solid;
@@ -167,7 +167,7 @@ a {
     background: rgb(0, 174, 255);  
     cursor: pointer; 
 }
-
+/* floating title */
 .bottom-left {
     position: absolute;
     left: 24%;
@@ -201,11 +201,11 @@ a {
 
 .contact {
     margin-top: 5%;
-    text-align: middle;
+    text-align: right;
     margin-right: 0%;
     border-right: solid rgb(0, 174, 255) 5px;    
     font-size: 30px; 
-    padding-left: 10%;
+    padding-right: 10%;
 }
 
 footer nav ul, .info a{
