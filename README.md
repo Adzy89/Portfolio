@@ -12,7 +12,7 @@ n/a
 
 ## Screenshot
 
-[demo](https://github.com/Adzy89/Portfolio/blob/main/assets/02-advanced-css-homework-demo.gif)
+![](https://github.com/Adzy89/Portfolio/blob/main/assets/02-advanced-css-homework-demo.gif)
 
 ## Usage
 
